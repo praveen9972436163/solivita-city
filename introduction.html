@@ -3,152 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course on Design and Analysis of Algorithms</title>
+    <title>SOLIVITA CITY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             line-height: 1.6;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
         }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        h1 {
+
+        header {
             text-align: center;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
         }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header h2, header h3 {
+            margin: 10px 0;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.9rem;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #6a11cb;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f4f4f9;
+        }
+
         ul {
-            margin: 10px 0 20px 20px;
+            list-style: none;
+            padding: 0;
         }
-        .section {
-            margin-bottom: 30px;
+
+        ul li {
+            margin: 5px 0;
         }
-        .project-section {
-            background-color: #f9f9f9;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
         }
     </style>
 </head>
 <body>
-    <h1>Design and Analysis of Algorithms</h1>
 
-    <div class="section">
-        <h2>Introduction</h2>
-        <p>
-            This course focuses on the design and analysis of algorithms and their real-world applications. 
-            The objective is to develop the capability to write algorithms for specific tasks, implement them 
-            using suitable data structures, and improve their efficiency. This course bridges theoretical 
-            knowledge and practical applications, making it crucial for solving computational problems.
-        </p>
-    </div>
+<header>
+    <h1>SOLIVITA CITY 🌆</h1>
+    <h2>Division: ‘E’</h2>
+    <h3>Team: E-4</h3>
+</header>
 
-    <div class="section">
-        <h2>Topics Covered</h2>
-        <h3>Data Structures</h3>
-        <ul>
-            <li><strong>Linear Data Structures:</strong>
-                <ul>
-                    <li>Arrays (1-dimensional and 2-dimensional)</li>
-                    <li>Linked Lists:
-                        <ul>
-                            <li>Singly Linked List (SLL)</li>
-                            <li>Circular SLL</li>
-                            <li>Doubly Linked List (DLL)</li>
-                            <li>Circular DLL</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li><strong>Non-linear Data Structures:</strong>
-                <ul>
-                    <li>Stacks and Queues</li>
-                    <li>Trees:
-                        <ul>
-                            <li>n-ary Trees</li>
-                            <li>Binary Trees</li>
-                            <li>Binary Search Trees</li>
-                            <li>2-3 Trees</li>
-                            <li>AVL Trees</li>
-                            <li>Red-Black Trees</li>
-                            <li>Tries</li>
-                            <li>Skip Lists</li>
-                            <li>Segment Trees</li>
-                            <li>Fenwick Trees</li>
-                        </ul>
-                    </li>
-                    <li>Graphs (Weighted/Unweighted, Directed/Undirected)</li>
-                    <li>Heaps</li>
-                    <li>HashMaps</li>
-                    <li>Union-Find (Disjoint Set Union)</li>
-                </ul>
-            </li>
-        </ul>
+<section>
+    <h2>Team Members</h2>
+    <ul>
+        <li><strong>Praveen Angadi</strong> (548): USN: 01fe23bcs298</li>
+        <li><strong>Rohit</strong> (546): USN: 01fe23bcs294</li>
+        <li><strong>Pramod</strong> (547): USN: 01fe23bcs296</li>
+        <li><strong>Shivtej</strong> (557): USN: 01fe23bcs422</li>
+    </ul>
+</section>
 
-        <h3>Algorithms</h3>
-        <ul>
-            <li><strong>Sorting Algorithms:</strong>
-                <ul>
-                    <li>Bubble Sort</li>
-                    <li>Insertion Sort</li>
-                    <li>Selection Sort</li>
-                    <li>Merge Sort</li>
-                    <li>Quick Sort</li>
-                    <li>Heap Sort</li>
-                </ul>
-            </li>
-            <li><strong>String Matching Algorithms:</strong>
-                <ul>
-                    <li>Brute Force</li>
-                    <li>Boyer-Moore</li>
-                    <li>Knuth-Morris-Pratt (KMP)</li>
-                    <li>Rabin-Karp</li>
-                </ul>
-            </li>
-            <li><strong>Graph Algorithms:</strong>
-                <ul>
-                    <li>Breadth-First Search (BFS)</li>
-                    <li>Depth-First Search (DFS)</li>
-                    <li>Kruskal’s Algorithm</li>
-                    <li>Dijkstra’s Algorithm</li>
-                    <li>Bellman-Ford Algorithm</li>
-                    <li>Floyd-Warshall Algorithm</li>
-                </ul>
-            </li>
-            <li><strong>Backtracking Algorithms:</strong>
-                <ul>
-                    <li>N-Queen Problem</li>
-                    <li>Subset Generation</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Real-World Applications</h2>
-        <p>Efficient data structures and algorithms are essential to solving real-world problems in minimal time. Examples include:</p>
-        <ul>
-            <li><strong>Sorting and Searching:</strong> Used in e-commerce platforms for ranking products and in databases for search functionalities.</li>
-            <li><strong>Graph Algorithms:</strong>
-                <ul>
-                    <li>Friend recommendations in social networks using graph traversal.</li>
-                    <li>Navigation systems like GPS use Dijkstra’s and A* algorithms for calculating the shortest paths.</li>
-                </ul>
-            </li>
-            <li><strong>Network Routing:</strong> Bellman-Ford and Floyd-Warshall algorithms are used in routing protocols for optimal data transmission.</li>
-            <li><strong>Finance and Stock Trading:</strong> Algorithms help in real-time data analysis, predictive analytics, and fraud detection.</li>
-            <li><strong>Task Scheduling:</strong> Heaps are used in priority queues for task scheduling in operating systems and event-driven systems.</li>
-        </ul>
-    </div>
-
-    <div class="section project-section">
-        <h2>Project Repository</h2>
-        <ul>
-            <li><strong>Frontend:</strong> User interface design and visualization of smart city components.</li>
-            <li><strong>Backend:</strong> Implementation of algorithms and data integration for real-time updates.</li>
-            <li><strong>Algorithms:</strong> Development and optimization of algorithms for smart city planning.</li>
-            <li><strong>Data:</strong> Datasets for testing and validation.</li>
-        </ul>
-    </div>
 </body>
 </html>

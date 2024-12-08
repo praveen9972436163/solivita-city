@@ -3,70 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solivita City Project</title>
+    <title>Algorithms Course Project</title>
     <style>
+        /* General Page Styling */
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
             background-color: #f4f4f9;
         }
-        h1, h2 {
-            color: #2c3e50;
+
+        /* Header Section */
+        header {
+            background-color: #e91e63;
+            color: #fff;
+            padding: 20px 0;
             text-align: center;
         }
-        h1 {
+
+        header h1 {
+            margin: 0;
             font-size: 2.5em;
         }
-        .section {
-            margin-bottom: 30px;
-            background: #ffffff;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
         }
-        .team-members {
-            margin: 0 0 20px 20px;
-        }
-        .team-members li {
-            margin-bottom: 5px;
-        }
-        .welcome-message {
-            text-align: center;
-            font-size: 1.2em;
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
             font-weight: bold;
-            color: #34495e;
+        }
+
+        nav a:hover {
+            background-color: #d81b60;
+            border-radius: 5px;
+        }
+
+        /* Section Styling */
+        .section {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .section h2 {
+            color: #e91e63;
+            margin-bottom: 10px;
+            font-size: 1.8em;
+        }
+
+        .section p, .section ul {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
         }
     </style>
 </head>
 <body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Algorithms Course Project</h1>
+        <nav>
+            <a href="#project-overview">Project Overview</a>
+            <a href="#business-use-cases">Business Use Cases</a>
+            <a href="#course-reflections">Course Reflections</a>
+        </nav>
+    </header>
 
-    <h1>SOLIVITA CITY 🌆</h1>
-    <h2>Division: ‘E’</h2>
-
-    <div class="section">
-        <h2>Team: E-4</h2>
-        <ul class="team-members">
-            <li><strong>Praveen Angadi (548)</strong>: USN: 01fe23bcs298</li>
-            <li><strong>Rohit (546)</strong>: USN: 01fe23bcs294</li>
-            <li><strong>Pramod (547)</strong>: USN: 01fe23bcs296</li>
-            <li><strong>Shivtej (557)</strong>: USN: 01fe23bcs422</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <p class="welcome-message">Welcome to the Algorithms Course Project</p>
-    </div>
-
-    <div class="section">
-        <h2>Project Overview</h2>
+    <!-- Project Overview Section -->
+    <div class="section" id="project-overview">
+        <h2>Introduction</h2>
         <p>
-            This project is an integration of algorithm design and real-world applications, 
-            focusing on solving complex problems using advanced data structures and optimization techniques.
+            This course focuses on the design and analysis of algorithms and their real-world applications.
+            The objective is to develop the capability to write algorithms for specific tasks, implement them 
+            using suitable data structures, and improve their efficiency. This course bridges theoretical knowledge 
+            and practical applications, making it crucial for solving computational problems.
         </p>
     </div>
 
-    <div class="section">
+    <!-- Business Use Cases Section -->
+    <div class="section" id="business-use-cases">
         <h2>Business Use Cases</h2>
         <ul>
             <li>Smart city infrastructure planning and development.</li>
@@ -75,7 +103,8 @@
         </ul>
     </div>
 
-    <div class="section">
+    <!-- Course Reflections Section -->
+    <div class="section" id="course-reflections">
         <h2>Course Reflections</h2>
         <p>
             The course on algorithm design provided us with a strong foundation in writing and optimizing 
@@ -83,6 +112,5 @@
             which has been instrumental in building this project.
         </p>
     </div>
-
 </body>
 </html>

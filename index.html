@@ -3,284 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOLIVITA CITY</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Solivita City Project</title>
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: Arial, sans-serif;
+            margin: 20px;
             line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        header {
-            text-align: center;
-            background: linear-gradient(to right, #6a11cb, #2575fc);
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-        }
-
-        header h2, header h3 {
-            margin: 10px 0;
-        }
-
-        section {
-            max-width: 1200px;
-            margin: 20px auto;
-            background: white;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 0.9rem;
-        }
-
-        table, th, td {
-            border: 1px solid #ddd;
-        }
-
-        th, td {
-            text-align: center;
-            padding: 10px;
-        }
-
-        th {
-            background-color: #6a11cb;
-            color: white;
-        }
-
-        tr:nth-child(even) {
             background-color: #f4f4f9;
         }
-
-        ul {
-            list-style: none;
-            padding: 0;
+        h1, h2 {
+            color: #2c3e50;
+            text-align: center;
         }
-
-        ul li {
-            margin: 5px 0;
+        h1 {
+            font-size: 2.5em;
         }
-
-        img {
-            display: block;
-            margin: 20px auto;
-            max-width: 100%;
-            height: auto;
+        .section {
+            margin-bottom: 30px;
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .team-members {
+            margin: 0 0 20px 20px;
+        }
+        .team-members li {
+            margin-bottom: 5px;
+        }
+        .welcome-message {
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #34495e;
         }
     </style>
 </head>
 <body>
 
-<header>
     <h1>SOLIVITA CITY 🌆</h1>
     <h2>Division: ‘E’</h2>
-    <h3>Team: E-4</h3>
-</header>
 
-<section>
-    <h2>Team Members</h2>
-    <ul>
-        <li><strong>Praveen Angadi</strong> (548): USN: 01fe23bcs298</li>
-        <li><strong>Rohit</strong> (546): USN: 01fe23bcs294</li>
-        <li><strong>Pramod</strong> (547): USN: 01fe23bcs296</li>
-        <li><strong>Shivtej</strong> (557): USN: 01fe23bcs422</li>
-    </ul>
-</section>
+    <div class="section">
+        <h2>Team: E-4</h2>
+        <ul class="team-members">
+            <li><strong>Praveen Angadi (548)</strong>: USN: 01fe23bcs298</li>
+            <li><strong>Rohit (546)</strong>: USN: 01fe23bcs294</li>
+            <li><strong>Pramod (547)</strong>: USN: 01fe23bcs296</li>
+            <li><strong>Shivtej (557)</strong>: USN: 01fe23bcs422</li>
+        </ul>
+    </div>
 
-<section>
-    <h2>Land Distribution and Budget</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Category</th>
-                <th>Details/Values</th>
-                <th>Land Allocation</th>
-                <th>Budget (Cr)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="5"><strong>Sports and Recreation</strong></td>
-                <td>Stadium</td>
-                <td>5%</td>
-                <td>300 Cr</td>
-            </tr>
-            <tr>
-                <td>Football Stadium</td>
-                <td>3%</td>
-                <td>1000 Cr</td>
-            </tr>
-            <tr>
-                <td>Waterpark</td>
-                <td>0.5%</td>
-                <td>20 Cr</td>
-            </tr>
-            <tr>
-                <td>Museum</td>
-                <td>1%</td>
-                <td>60 Cr</td>
-            </tr>
-            <tr>
-                <td>Digital Sports Centers</td>
-                <td>0.5%</td>
-                <td>450 Cr</td>
-            </tr>
-            <tr>
-                <td rowspan="5"><strong>Industrial & Power</strong></td>
-                <td>Industrial Area</td>
-                <td>12%</td>
-                <td>600 Cr</td>
-            </tr>
-            <tr>
-                <td>Wind Power Plant</td>
-                <td>7%</td>
-                <td>300 Cr</td>
-            </tr>
-            <tr>
-                <td>Solar Power Plant</td>
-                <td>8%</td>
-                <td>500 Cr</td>
-            </tr>
-            <tr>
-                <td>Automobile Services</td>
-                <td>2%</td>
-                <td>100 Cr</td>
-            </tr>
-            <tr>
-                <td>Emission Control</td>
-                <td>1%</td>
-                <td>70 Cr</td>
-            </tr>
-            <tr>
-                <td rowspan="5"><strong>Education</strong></td>
-                <td>Schools</td>
-                <td>4%</td>
-                <td>100 Cr</td>
-            </tr>
-            <tr>
-                <td>University</td>
-                <td>4%</td>
-                <td>100 Cr</td>
-            </tr>
-            <tr>
-                <td>JIT & Medical Colleges</td>
-                <td>5%</td>
-                <td>1500 Cr</td>
-            </tr>
-            <tr>
-                <td>Research Centers</td>
-                <td>4%</td>
-                <td>800 Cr</td>
-            </tr>
-            <tr>
-                <td>Space & Tech Parks</td>
-                <td>3%</td>
-                <td>800 Cr</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
+    <div class="section">
+        <p class="welcome-message">Welcome to the Algorithms Course Project</p>
+    </div>
 
+    <div class="section">
+        <h2>Project Overview</h2>
+        <p>
+            This project is an integration of algorithm design and real-world applications, 
+            focusing on solving complex problems using advanced data structures and optimization techniques.
+        </p>
+    </div>
 
+    <div class="section">
+        <h2>Business Use Cases</h2>
+        <ul>
+            <li>Smart city infrastructure planning and development.</li>
+            <li>Efficient resource allocation and management using algorithms.</li>
+            <li>Data analysis for predictive maintenance and future planning.</li>
+        </ul>
+    </div>
 
-    <section>
-    <h2>Total Budget</h2>
-    <p><strong>10,838 Cr</strong></p>
-</section>
-
-
-    <section>
-    <h2>Bar Graph Representation</h2>
-    <p>The bar graph below shows the percentage of land allocation and the budget distribution for various categories:</p>
-    <img src="Screenshot4.jpg" alt="Profile Picture" width="500" height="500">
-</section>
-
-
-
-    
-
-<!-- Revenue and Business Models (Second Table) -->
-<section>
-    <h2>Revenue and Business Models - Financial Overview</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Category</th>
-                <th>Budget (Cr)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Revenue and Business Models</td>
-                <td>14,400 Cr</td>
-            </tr>
-            <tr>
-                <td>IT Sector</td>
-                <td>5 Lakh Cr / Year</td>
-            </tr>
-            <tr>
-                <td>Financial Services</td>
-                <td>5000 Cr / Year</td>
-            </tr>
-            <tr>
-                <td>Healthcare</td>
-                <td>75,000 Cr / Year</td>
-            </tr>
-            <tr>
-                <td>Tourism</td>
-                <td>35,000 Cr / Year</td>
-            </tr>
-            <tr>
-                <td>Construction</td>
-                <td>12,000 Cr / Year</td>
-            </tr>
-            <tr>
-                <td>Education</td>
-                <td>10,000 Cr / Year</td>
-            </tr>
-            <tr>
-                <td>Retail</td>
-                <td>50,000 Cr / Year</td>
-            </tr>
-            <tr>
-                <td>Grants</td>
-                <td>8,000 Cr / Year</td>
-            </tr>
-            <tr>
-                <td>Taxes</td>
-                <td>28,000 Cr / Year</td>
-            </tr>
-            <tr>
-                <td>Human Population</td>
-                <td>15 Million</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
-
-
-        <section>
-    <h2> pie chart Representation</h2>
-    <p>The pie chart below shows the percentage of revenue generated by particulalr sector:</p>
-    <img src="image.png" alt="Profile Picture" width="500" height="500">
-</section>
-
-
-
-
+    <div class="section">
+        <h2>Course Reflections</h2>
+        <p>
+            The course on algorithm design provided us with a strong foundation in writing and optimizing 
+            algorithms. It allowed us to bridge theoretical knowledge with practical applications, 
+            which has been instrumental in building this project.
+        </p>
+    </div>
 
 </body>
 </html>

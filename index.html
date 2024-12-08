@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algorithm Course Project</title>
     <style>
-        /* General Page Styling */
+       
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -13,6 +13,9 @@
             background-image: url('output1.jpg'); /* Set the background image */
             background-size: cover; /* Make the image cover the whole page */
             background-position: center; /* Center the background image */
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
         /* First Page Styling */
         .hero {
             height: 35vh; /* 35% of the viewport height */
@@ -23,6 +26,8 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+            position: relative;
+            z-index: 1; /* Ensure the text and links are above the image */
         }
 
         .hero h1 {
@@ -49,7 +54,6 @@
         /* Section Styling */
         .section {
             max-width: 800px;
-            background-image: url('output1.jpg');
             margin: 20px auto;
             background: #fff;
             border-radius: 10px;
@@ -71,6 +75,12 @@
             list-style-type: disc;
             margin-left: 20px;
         }
+
+        /* Spacing between sections */
+        .section + .section {
+            margin-top: 40px;
+        }
+
     </style>
 </head>
 <body>

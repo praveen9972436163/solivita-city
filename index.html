@@ -3,46 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algorithms Course Project</title>
+    <title>Algorithm Course Project</title>
     <style>
         /* General Page Styling */
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
-            padding: 0;
+            font-family: Arial, sans-serif;
             background-color: #f4f4f9;
+            line-height: 1.6;
         }
 
-        /* Header Section */
-        header {
-            background-color: #e91e63;
+        /* First Page Styling */
+        .hero {
+            height: 35vh; /* 35% of the viewport height */
+            background: linear-gradient(135deg, #e91e63, #9c27b0);
             color: #fff;
-            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
         }
 
-        header h1 {
+        .hero h1 {
+            font-size: 3em;
             margin: 0;
-            font-size: 2.5em;
         }
 
-        nav {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
+        .hero nav {
+            margin-top: 15px;
         }
 
-        nav a {
+        .hero nav a {
             color: #fff;
             text-decoration: none;
-            padding: 10px 20px;
+            margin: 0 15px;
             font-weight: bold;
+            font-size: 1.2em;
         }
 
-        nav a:hover {
-            background-color: #d81b60;
-            border-radius: 5px;
+        .hero nav a:hover {
+            text-decoration: underline;
         }
 
         /* Section Styling */
@@ -57,8 +58,8 @@
 
         .section h2 {
             color: #e91e63;
-            margin-bottom: 10px;
             font-size: 1.8em;
+            margin-bottom: 10px;
         }
 
         .section p, .section ul {
@@ -72,47 +73,15 @@
     </style>
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1> Algorithms Course Project</h1>
+    <!-- Hero Section (First Page) -->
+    <div class="hero">
+        <h1>Algorithm Course Project</h1>
         <nav>
-            <a href="#introduction-overview">introduction overview</a>
+            <a href="#introduction-overview">Introduction Overview</a>
             <a href="#project-overview">Project Overview</a>
             <a href="#business-use-cases">Business Use Cases</a>
             <a href="#course-reflections">Course Reflections</a>
-         
         </nav>
-    </header>
-
-    <!-- Project Overview Section -->
-    <div class="section" id="project-overview">
-        <h2>Introduction</h2>
-        <p>
-            This course focuses on the design and analysis of algorithms and their real-world applications.
-            The objective is to develop the capability to write algorithms for specific tasks, implement them 
-            using suitable data structures, and improve their efficiency. This course bridges theoretical knowledge 
-            and practical applications, making it crucial for solving computational problems.
-        </p>
-    </div>
-
-    <!-- Business Use Cases Section -->
-    <div class="section" id="business-use-cases">
-        <h2>Business Use Cases</h2>
-        <ul>
-            <li>Smart city infrastructure planning and development.</li>
-            <li>Efficient resource allocation and management using algorithms.</li>
-            <li>Data analysis for predictive maintenance and future planning.</li>
-        </ul>
-    </div>
-
-    <!-- Course Reflections Section -->
-    <div class="section" id="course-reflections">
-        <h2>Course Reflections</h2>
-        <p>
-            The course on algorithm design provided us with a strong foundation in writing and optimizing 
-            algorithms. It allowed us to bridge theoretical knowledge with practical applications, 
-            which has been instrumental in building this project.
-        </p>
     </div>
 </body>
 </html>

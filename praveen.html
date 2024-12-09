@@ -1,79 +1,138 @@
-### 1. *Problems in Nature: Iteration, Recursion, and Backtracking*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Concepts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #0078D7;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        ul {
+            margin: 10px 0;
+            padding: 0 20px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Computer Science Concepts</h1>
 
-- *Iteration*: Repeating actions until a condition is met.  
-  Example: Waves in the ocean repeating in cycles.
+    <div class="section">
+        <h2>1. Problems in Nature: Iteration, Recursion, and Backtracking</h2>
+        <ul>
+            <li><b>Iteration:</b> Repeating actions until a condition is met.  
+                <i>Example:</i> Waves in the ocean repeating in cycles.
+            </li>
+            <li><b>Recursion:</b> Solving problems by breaking them into smaller parts of the same type.  
+                <i>Example:</i> Patterns in snowflakes or ferns.
+            </li>
+            <li><b>Backtracking:</b> Trying all possible paths and stepping back when something doesn’t work.  
+                <i>Example:</i> Ants searching for the shortest path to food.
+            </li>
+        </ul>
+    </div>
 
-- *Recursion*: Solving problems by breaking them into smaller parts of the same type.  
-  Example: Patterns in snowflakes or ferns.
+    <div class="section">
+        <h2>2. Space and Time Efficiency</h2>
+        <ul>
+            <li><b>Space Efficiency:</b> The memory a program uses. Important for devices with limited memory.</li>
+            <li><b>Time Efficiency:</b> How fast a program runs. Important for saving time and resources.</li>
+        </ul>
+        <p><b>Orders of Growth:</b></p>
+        <ul>
+            <li><b>Constant Time (O(1)):</b> Quick, like looking up a name in a small list.</li>
+            <li><b>Linear Time (O(n)):</b> Proportional to input size, like scanning through a book.</li>
+            <li><b>Exponential Time (O(2<sup>n</sup>)):</b> Very slow, like testing every move in chess.</li>
+        </ul>
+    </div>
 
-- *Backtracking*: Trying all possible paths and stepping back when something doesn’t work.  
-  Example: Ants searching for the shortest path to food.
+    <div class="section">
+        <h2>3. Design Principles (Chapter 2)</h2>
+        <ul>
+            <li><b>Divide and Conquer:</b> Break the problem into smaller parts.</li>
+            <li><b>Abstraction:</b> Focus on the key idea, ignore details.</li>
+            <li><b>Modularity:</b> Design in pieces that can work independently.</li>
+        </ul>
+    </div>
 
----
+    <div class="section">
+        <h2>4. Hierarchical Data and Trees</h2>
+        <ul>
+            <li><b>Tree:</b> Represents relationships, like a family tree.</li>
+            <li><b>Binary Search Tree (BST):</b> Fast searching by dividing data in halves.</li>
+            <li><b>AVL Tree:</b> Keeps the tree balanced for better performance.</li>
+            <li><b>Red-Black Tree:</b> Similar to AVL but faster in some cases.</li>
+            <li><b>Heap:</b> Used for priority tasks (e.g., job scheduling).</li>
+            <li><b>Trie:</b> Stores words for quick searches (e.g., auto-suggestions).</li>
+        </ul>
+    </div>
 
-### 2. *Space and Time Efficiency*
+    <div class="section">
+        <h2>5. Array Query Algorithms</h2>
+        <p>Solve problems like finding the sum or max of a subarray.</p>
+        <p><b>Examples:</b></p>
+        <ul>
+            <li><b>Prefix Sum:</b> Speeds up repeated sum queries.</li>
+            <li><b>Sliding Window:</b> Efficient for ranges (e.g., tracking the highest temperature in a week).</li>
+        </ul>
+        <p><b>Applications:</b> Search engines, weather predictions.</p>
+    </div>
 
-- *Space Efficiency*: The memory a program uses.  
-  Important for devices with limited memory.  
+    <div class="section">
+        <h2>6. Trees vs. Graphs</h2>
+        <ul>
+            <li><b>Tree:</b> Hierarchical (e.g., file systems).</li>
+            <li><b>Graph:</b> Network connections (e.g., social networks).</li>
+        </ul>
+        <p><b>Traversals:</b></p>
+        <ul>
+            <li><b>Tree Traversals:</b> Preorder, Inorder, Postorder (used in parsing expressions).</li>
+            <li><b>Graph Traversals:</b> BFS, DFS (used in shortest path and network analysis).</li>
+        </ul>
+    </div>
 
-- *Time Efficiency*: How fast a program runs.  
-  Important for saving time and resources.  
+    <div class="section">
+        <h2>7. Sorting and Searching Algorithms</h2>
+        <p><b>Sorting:</b> Organize data (e.g., arranging names alphabetically).</p>
+        <ul>
+            <li><b>QuickSort:</b> Fast, divide-and-conquer.</li>
+            <li><b>MergeSort:</b> Stable, used in large datasets.</li>
+        </ul>
+        <p><b>Searching:</b> Find specific data (e.g., locating a book in a library).</p>
+        <ul>
+            <li><b>Binary Search:</b> Efficient for sorted data.</li>
+        </ul>
+        <p><b>Real-world Use:</b> E-commerce (sorting products), GPS (searching routes).</p>
+    </div>
 
-- *Orders of Growth*:
-  - *Constant Time (O(1))*: Quick, like looking up a name in a small list.
-  - *Linear Time (O(n))*: Proportional to input size, like scanning through a book.
-  - *Exponential Time (O(2^n))*: Very slow, like testing every move in chess.
-
----
-
-### 3. *Design Principles (Chapter 2)*  
-- *Divide and Conquer*: Break the problem into smaller parts.  
-- *Abstraction*: Focus on the key idea, ignore details.  
-- *Modularity*: Design in pieces that can work independently.
-
----
-
-### 4. *Hierarchical Data and Trees*  
-
-- *Tree*: Represents relationships, like a family tree.  
-- *Binary Search Tree (BST)*: Fast searching by dividing data in halves.  
-- *AVL Tree*: Keeps the tree balanced for better performance.  
-- *Red-Black Tree*: Similar to AVL but faster in some cases.  
-- *Heap*: Used for priority tasks (e.g., job scheduling).  
-- *Trie*: Stores words for quick searches (e.g., auto-suggestions).
-
----
-
-### 5. *Array Query Algorithms*  
-
-- Solve problems like finding the sum or max of a subarray.  
-  Examples:
-  - *Prefix Sum*: Speeds up repeated sum queries.
-  - *Sliding Window*: Efficient for ranges (e.g., tracking the highest temperature in a week).  
-
-*Applications*: Search engines, weather predictions.
-
----
-
-### 6. *Trees vs. Graphs*  
-
-- *Tree*: Hierarchical (e.g., file systems).  
-- *Graph*: Network connections (e.g., social networks).  
-
-*Traversals*:
-- *Tree Traversals*: Preorder, Inorder, Postorder (used in parsing expressions).  
-- *Graph Traversals*: BFS, DFS (used in shortest path and network analysis).
-
----
-
-### 7. *Sorting and Searching Algorithms*  
-
-- *Sorting*: Organize data (e.g., arranging names alphabetically).  
-  - QuickSort: Fast, divide-and-conquer.
-  - MergeSort: Stable, used in large datasets.  
-
-- *Searching*: Find specific data (e.g., locating a book in a library).  
-  - Binary Search: Efficient for sorted data.  
-
-Real-world Use: E-commerce (sorting products), GPS (searching routes).
-
+    <footer>
+        &copy; 2024 Computer Science Concepts. All rights reserved.
+    </footer>
+</body>
+</html>

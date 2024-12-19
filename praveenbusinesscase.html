@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styled Headings</title>
+    <title>Smart City Algorithms</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background: #f5f5f5;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 500vh;
         }
         .heading-container {
@@ -23,6 +24,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             width: 80%;
             max-width: 600px;
+            margin-bottom: 20px;
         }
         h2 {
             margin: 20px 0;
@@ -39,31 +41,6 @@
             background: #007BFF;
             margin: 10px auto 0;
         }
-    </style>
-</head>
-<body>
-    <div class="heading-container">
-        <h2>Water Management</h2>
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart City Water Network Algorithms</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-        header {
-            background-color: #0078d7;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
         .container {
             max-width: 800px;
             margin: 20px auto;
@@ -71,9 +48,6 @@
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #333;
         }
         p {
             margin-bottom: 15px;
@@ -84,17 +58,18 @@
     </style>
 </head>
 <body>
-    <header>
-      <h1>Smart City Water Network Algorithms</h1>
-    </header>
+    <div class="heading-container">
+        <h2>Water Management</h2>
+    </div>
+
     <div class="container">
         <div class="algorithm">
-            <h2>1.Water Distribution</h2>
+            <h2>1. Water Distribution</h2>
             <p><strong>Algorithm:</strong> Minimum Spanning Tree (Kruskal’s Algorithm)</p>
             <p><strong>Use Case:</strong> Design cost-effective water distribution systems that minimize the infrastructure cost while maintaining connectivity.</p>
         </div>
         <div class="algorithm">
-            <h2>2. Sanitation and Wastewater system</h2>
+            <h2>2. Sanitation and Wastewater System</h2>
             <p><strong>Algorithm:</strong> Shortest Path Algorithm (Dijkstra’s Algorithm)</p>
             <p><strong>Use Case:</strong> Optimize the transportation of wastewater from households to treatment plants to reduce contamination and ensure timely processing.</p>
         </div>
@@ -104,53 +79,11 @@
             <p><strong>Use Case:</strong> Detect leaks or failures in water pipes by traversing the network to identify disconnected components.</p>
         </div>
     </div>
-</body>
-</html>
 
- <h2>Transportation Infrastructure</h2>
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart City Transport Network Algorithms</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-        header {
-            background-color: #0078d7;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #333;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        .algorithm {
-            margin-bottom: 30px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Smart City Transport Network Algorithms</h1>
-    </header>
+    <div class="heading-container">
+        <h2>Transportation Infrastructure</h2>
+    </div>
+
     <div class="container">
         <div class="algorithm">
             <h2>1. Public Transport Network Design</h2>
@@ -163,50 +96,11 @@
             <p><strong>Use Case:</strong> Quickly determine the shortest paths for emergency vehicles.</p>
         </div>
     </div>
-</body>
-</html>
-   
-    <h2>Energy and Utilities</h2>
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-        header {
-            background-color: #0078d7;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #333;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        .algorithm {
-            margin-bottom: 30px;
-        }
-    </style>
-</head>
-<body>
-    
+
+    <div class="heading-container">
+        <h2>Energy and Utilities</h2>
+    </div>
+
     <div class="container">
         <div class="algorithm">
             <h2>1. Energy Distribution Network Optimization</h2>
@@ -221,8 +115,3 @@
     </div>
 </body>
 </html>
-
-    </div>
-</body>
-</html>
-

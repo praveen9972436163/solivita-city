@@ -2,45 +2,44 @@
 #include <vector>
 using namespace std;
 
-// Function to build the max-heap by heapifying downwards
 void heapify(vector<int>& H, int n, int i) {
-    int k = i;          // Current node
-    int v = H[k];       // Value at current node
+    int k = i;        
+    int v = H[k];      
     bool heap = false;
 
-    while (!heap && 2 * k <= n) {  // While there is at least a left child
-        int j = 2 * k;             // Left child index
-        if (j < n && H[j] < H[j + 1])  // If right child exists and is greater
+    while (!heap && 2 * k <= n) { 
+        int j = 2 * k;            
+        if (j < n && H[j] < H[j + 1])  
             j++;
         
-        if (v >= H[j])             // If current value is greater than or equal to the largest child
+        if (v >= H[j])           
             heap = true;
         else {
-            H[k] = H[j];           // Move the largest child up
-            k = j;                 // Move to the next level
+            H[k] = H[j];           
+            k = j;                
         }
     }
-    H[k] = v;                      // Place the original value in the correct position
+    H[k] = v;                      
 }
 
-// Function to perform heap sort
-void heapSort(vector<int>& H) {
-    int n = H.size() - 1;          // Assuming the array is 1-indexed
 
-    // Step 1: Build a max heap
+void heapSort(vector<int>& H) {
+    int n = H.size() - 1;          
+
+    
     for (int i = n / 2; i >= 1; i--) {
         heapify(H, n, i);
     }
 
-    // Step 2: Extract elements from the heap
+  
     for (int i = n; i > 1; i--) {
-        swap(H[1], H[i]);          // Swap the root (largest) with the last element
-        heapify(H, i - 1, 1);      // Heapify the reduced heap
+        swap(H[1], H[i]);        
+        heapify(H, i - 1, 1);   
     }
 }
 
 int main() {
-    // 1-indexed array (dummy element at index 0)
+  
     vector<int> H = {0, 4, 10, 3, 5, 1}; 
 
     cout << "Original array: ";
